@@ -29,7 +29,7 @@ label{
 }
 
 input{
-    border: 1px solid red;
+    border: none;
     padding: 10px;
     background: #f1f5f9;
     border-radius: 8px;
@@ -63,4 +63,20 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 
+`
+
+
+
+export const ContainerButton=styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+export const Button=styled.div`
+background: #2dd4bf;
+padding: 8px 32px;
+color: #fff;
+font-size:18px;
+border-radius: 8px;
+cursor: pointer;
 `
