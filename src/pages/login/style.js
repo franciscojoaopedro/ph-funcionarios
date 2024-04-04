@@ -41,9 +41,6 @@ input{
     font-size: 16px;
     font-weight: 300;
 
-    
-    
-
 }
 input::placeholder{
         color: #fff;
@@ -58,13 +55,12 @@ justify-content: center;
 align-items: center;
 width: 50%;
 height: 100vh;
-max-height: 100vh;
 padding: 10px;
 background:#e2e8f0;
 box-shadow:  -3px -1px -4px  inset #121212;
 img{
-    margin-top: 60px;
-    height: 900px;
+    margin-top: 150px;
+    height: 600px;
 }
 `
 
