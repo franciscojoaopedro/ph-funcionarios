@@ -1,4 +1,5 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import {devices} from "../../breakpoints/divice"
 export const Container=styled.div`
 width: 100%;
 height: 100vh;
@@ -12,17 +13,19 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
+@media ${devices.mobileS} {
+    flex-direction: column;
+   
+}
 
 `
 
 export const InputAndLabel=styled.div`
 display: flex;
-
 justify-content: center;
 align-items: start;
 flex-direction: column;
 margin-bottom:15px;
-
 
 label{
     color: #fff;
@@ -40,12 +43,21 @@ input{
     color: #fff;
     font-size: 16px;
     font-weight: 300;
-
+    
+    @media ${devices.mobileS} {
+    
+    width: 95%;   
+    }
 }
 input::placeholder{
         color: #fff;
         font-size: 12px;
     }
+
+    
+@media ${devices.mobileS} {
+    width: 100%;   
+}
 
 `
 
@@ -60,7 +72,7 @@ background:#e2e8f0;
 box-shadow:  -3px -1px -4px  inset #121212;
 position: relative;
 img{
-    width: 100%;
+    width: 1500px;
     height: 90vh;
     display: block;
     justify-content: flex-end;
@@ -70,6 +82,12 @@ img{
    image-orientation: flip;
    image-rendering: auto;
 
+}
+@media ${devices.mobileS} {
+    height: 0;
+  img{
+    visibility: hidden;
+  }
 }
 `
 
@@ -83,10 +101,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-
-
 box-shadow:  3px 1px 4px  inset #121212;
-
 `
 
 
@@ -119,7 +134,6 @@ margin-bottom: 25px;
 
 h4{
     margin-left: 10px;
-    
 }
 
 `;
