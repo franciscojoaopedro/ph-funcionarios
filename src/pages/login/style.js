@@ -6,6 +6,7 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+
 `
 export const ContainerFlex=styled.div`
 width: 100%;
@@ -13,10 +14,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
-@media ${devices.mobileS} {
-    flex-direction: column;
-   
-}
+
+
 
 `
 
@@ -44,10 +43,7 @@ input{
     font-size: 16px;
     font-weight: 300;
     
-    @media ${devices.mobileS} {
     
-    width: 95%;   
-    }
 }
 input::placeholder{
         color: #fff;
@@ -55,9 +51,6 @@ input::placeholder{
     }
 
     
-@media ${devices.mobileS} {
-    width: 100%;   
-}
 
 `
 
@@ -83,12 +76,9 @@ img{
    image-rendering: auto;
 
 }
-@media ${devices.mobileS} {
-    height: 0;
-  img{
-    visibility: hidden;
-  }
-}
+
+
+
 `
 
 export const  ContainerDireito=styled.div`

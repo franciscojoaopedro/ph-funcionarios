@@ -89,7 +89,7 @@ export const Login=()=>{
                     </InputAndLabel>
                     <InputAndLabel>
                         <label>Senha</label>
-                        <input ref={inputSenha}   required type="password"    placeholder="****************"  security="true"  />
+                        <input ref={inputSenha}   required type="password"    placeholder="*************"  security="true"  />
                     </InputAndLabel>
                     <ContainerButton>
                         <Button  onClick={handerLogin} >Entrar</Button>
