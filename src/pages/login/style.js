@@ -60,12 +60,12 @@ background:#e2e8f0;
 box-shadow:  -3px -1px -4px  inset #121212;
 position: relative;
 img{
-    width: 1000px;
+    width: 100%;
     height: 90vh;
     display: block;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 98px;
    
    image-orientation: flip;
    image-rendering: auto;
