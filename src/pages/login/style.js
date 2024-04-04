@@ -8,7 +8,6 @@ align-items: center;
 `
 export const ContainerFlex=styled.div`
 width: 100%;
-height: 100vh;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -18,6 +17,7 @@ align-items: center;
 
 export const InputAndLabel=styled.div`
 display: flex;
+
 justify-content: center;
 align-items: start;
 flex-direction: column;
@@ -58,6 +58,7 @@ justify-content: center;
 align-items: center;
 width: 50%;
 height: 100vh;
+max-height: 100vh;
 padding: 10px;
 background:#e2e8f0;
 box-shadow:  -3px -1px -4px  inset #121212;
@@ -71,8 +72,8 @@ export const  ContainerDireito=styled.div`
 padding: 10px;
 background:#1e569d;
 width:50%;
-
 height: 100vh;
+max-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
