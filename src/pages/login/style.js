@@ -106,9 +106,20 @@ background: transparent;
 padding: 8px 32px;
 color: #fff;
 font-size:18px;
-
+transition: 0.4s ;
 cursor: pointer;
 border: 2px solid #fff;
+
+
+    &:hover{
+        transform: scale(0.7);
+        background: #5eead4;
+    }
+
+
+
+
+
 
 `
 
