@@ -58,9 +58,18 @@ height: 100vh;
 padding: 10px;
 background:#e2e8f0;
 box-shadow:  -3px -1px -4px  inset #121212;
+position: relative;
 img{
-    margin-top: 150px;
-    height: 600px;
+    width: 1000px;
+    height: 90vh;
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 100px;
+   
+   image-orientation: flip;
+   image-rendering: auto;
+
 }
 `
 
