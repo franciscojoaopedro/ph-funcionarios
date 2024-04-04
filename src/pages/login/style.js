@@ -40,9 +40,16 @@ input{
     color: #fff;
     font-size: 16px;
     font-weight: 300;
+
+    
     
 
 }
+input::placeholder{
+        color: #fff;
+        font-size: 12px;
+    }
+
 `
 
 export const ContainerEsquerdo=styled.div`

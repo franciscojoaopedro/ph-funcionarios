@@ -85,11 +85,11 @@ export const Login=()=>{
                     </ContainerLogoInfo>
                     <InputAndLabel>
                         <label>E-mail</label>
-                        <input ref={inputEmail} required   type="email"  />
+                        <input ref={inputEmail} required   type="email" placeholder="email@petrohost.ao"  />
                     </InputAndLabel>
                     <InputAndLabel>
                         <label>Senha</label>
-                        <input ref={inputSenha}   required type="password"  security="true"  />
+                        <input ref={inputSenha}   required type="password"    placeholder="****************"  security="true"  />
                     </InputAndLabel>
                     <ContainerButton>
                         <Button  onClick={handerLogin} >Entrar</Button>
