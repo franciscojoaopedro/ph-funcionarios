@@ -106,7 +106,7 @@ background: transparent;
 padding: 8px 32px;
 color: #fff;
 font-size:18px;
-transition: 0.4s ;
+transition: 0.9s ;
 cursor: pointer;
 border: 2px solid #fff;
 
