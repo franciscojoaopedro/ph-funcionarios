@@ -12,6 +12,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 
+
 `
 
 export const InputAndLabel=styled.div`
@@ -24,16 +25,22 @@ margin-bottom:15px;
 
 label{
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
 }
 
 input{
+    outline: none;
     border: none;
     padding: 10px;
-    background: #f1f5f9;
-    border-radius: 8px;
+    background: transparent;
     width: 400px;
+    border-bottom:  2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    
+
 }
 `
 
@@ -45,10 +52,10 @@ width: 50%;
 height: 100vh;
 padding: 10px;
 background:#e2e8f0;
-
+box-shadow:  -3px -1px -4px  inset #121212;
 img{
-    
-    height: 800px;
+    margin-top: 60px;
+    height: 900px;
 }
 `
 
@@ -63,6 +70,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 
+
+box-shadow:  3px 1px 4px  inset #121212;
+
 `
 
 
@@ -73,10 +83,40 @@ justify-content: center;
 align-items: center;
 `;
 export const Button=styled.div`
-background: #2dd4bf;
+background: transparent;
 padding: 8px 32px;
 color: #fff;
 font-size:18px;
-border-radius: 8px;
+
 cursor: pointer;
+border: 2px solid #fff;
+
 `
+
+
+export const ContainerLogoInfo=styled.div`
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:start;
+margin-top: 25px;
+margin-bottom: 25px;
+
+h4{
+    margin-left: 10px;
+    
+}
+
+`;
+export const ContainerLogo=styled.div`
+
+
+
+
+img{
+    width: 200px;
+}
+`
+
+
